@@ -1,0 +1,67 @@
+Q2. When should one use Maven?
+answer:->
+as we know that maven is powerful project management tools so it used for managing  large java project since it 
+reduces the effort of java programer. and it is used for projects builds,dependencies and documantation
+
+
+Q3. Explain the core concepts of Maven.
+
+answer:->
+ maven is build tools so it take care of everythings.
+and it does following things
+
+1) it generate the source code 
+2) generate documantation from sourse code 
+3)compile the source code 
+4) packages compiled code into jAR of Zip file
+5)install the package code into local reposetry,central reposetry,server repositry.
+
+Q4. Explain about the basic properties of pom.xml file.
+answer:->
+pom.xml file contains information of project  and cojnfugration information for the maven to build the project such as
+dependencies
+directory
+source directory
+test sourse directory
+plugin ,goals
+
+
+
+Q5. What are the different phases of the default life cycle?
+
+
+Validate
+Compile
+Test 
+Package
+Integration test
+ Verify
+ Install and Deploy.
+
+
+6.What are the different types of Maven repositories?
+repository-> combination jar file
+ 3 type of maven repository
+1)Local Repository
+2)Central Repository
+3)Remote Repository
+
+serching order is 
+local repository->central repository->remote repositry
+
+
+Q7. Explain what a Primary key, Candidate Key, Prime Attributes,
+and Non-prime Attributes is.
+
+Primary key:-> primary key column or group of column is uniquly identify the row of table
+
+Candidate Key:->A candidate key is a specific type of field in a relational database that can identify 
+each unique record independently of any other data.
+
+Experts describe a candidate key of having "no redundant 
+attributes" and being a "minimal representation of a tuple" in a relational database table.
+
+ 
+Prime attribute − An attribute, which is a part of the prime-key, is known as a prime attribute. 
+Non-prime attribute − An attribute, which is not a part of the prime-key, is said to be a non- prime attribute.
+
